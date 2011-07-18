@@ -3,8 +3,7 @@ var backuptweets = require('./backuptweets.js'),
 
 backuptweets({
     "user" : "huskyr",
-    "max" : 40,
-    "debug" : true
+    "debug" : "true"
 }, function(tweets) {
     if (tweets) {
         fs.writeFile("tweets.json", tweets.json, function() {

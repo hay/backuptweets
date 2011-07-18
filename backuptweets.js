@@ -4,7 +4,7 @@ var fs = require('fs'),
     mustache = require('mustache'),
     _ = require('underscore');
 
-const API_COUNT_MAX = 20;
+const API_COUNT_MAX = 200;
 
 var args = {
     // Default options, will be overwritten in init with defaultArgs
