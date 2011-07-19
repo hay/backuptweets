@@ -1,0 +1,21 @@
+{
+    "name": "backuptweets",
+    "author" : "Hay Kranen <hay@bykr.org>",
+    "homepage" : "http://github.com/hay/backuptweets",
+    "description": "Backs up your tweets from twitter in HTML and JSON formats. Doesn't require oAuth.",
+    "keywords": ["twitter", "backup", "json"],
+    "version": "0.1.0",
+    "dependencies"  : [],
+    "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/hay/backuptweets.git"
+    },
+    "dependencies": {
+        "async" : ">=0.1.9 <1.0.0",
+        "mustache" : ">0.3.1 < 1.0.0",
+        "request" : ">1.9.8 < 2.0.0",
+        "underscore" : ">1.1.7 < 2.0.0"
+    },
+    "engine" : "node >= 0.4.1",
+    "main": "./backuptweets"
+}
