@@ -41,7 +41,7 @@ function htmlFormatResults(results, cb) {
         "tweets" : results
     };
 
-    fs.readFile("htmlview.html", "utf-8", function(err, data) {
+    fs.readFile(__dirname + "/htmlview.html", "utf-8", function(err, data) {
         var html = mustache.to_html(data, view);
         cb(html);
     });
