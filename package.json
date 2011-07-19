@@ -2,10 +2,9 @@
     "name": "backuptweets",
     "author" : "Hay Kranen <hay@bykr.org>",
     "homepage" : "http://github.com/hay/backuptweets",
-    "description": "Backs up your tweets from twitter in HTML and JSON formats. Doesn't require oAuth.",
+    "description": "Back up your Twitter tweets with Node.js without oAuth",
     "keywords": ["twitter", "backup", "json"],
     "version": "0.1.0",
-    "dependencies"  : [],
     "repository" : {
         "type" : "git",
         "url" : "http://github.com/hay/backuptweets.git"
@@ -16,6 +15,6 @@
         "request" : ">=1.9.8 < 2.0.0",
         "underscore" : ">=1.1.7 < 2.0.0"
     },
-    "engine" : "node >= 0.4.1",
+    "engine" : "node >= 0.5.1",
     "main": "./backuptweets"
 }
