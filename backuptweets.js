@@ -57,7 +57,7 @@ function init(initArgs, cb) {
     args = _.extend(args, initArgs);
 
     var requests = [],
-        pages = Math.floor(args.max / API_COUNT_MAX);
+        pages = Math.ceil(args.max / API_COUNT_MAX);
 
     for (var page = 1; page < pages + 1; page++) {
         (function(page) {
