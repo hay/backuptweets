@@ -16,7 +16,7 @@ Usage
 -----
 Here's the contents of `example.js`:
 
-    var backuptweets = require('./backuptweets.js'),
+    var backuptweets = require('backuptweets'),
         fs = require('fs');
 
     backuptweets({
