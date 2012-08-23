@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/hay/backuptweets.png)](http://travis-ci.org/hay/backuptweets)
 backuptweets - Back up your Twitter tweets with Node.js without oAuth
 =====================================================================
 
