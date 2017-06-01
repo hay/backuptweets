@@ -16,5 +16,6 @@
         "underscore" : ">=1.1.7 < 2.0.0"
     },
     "engine" : "node >= 0.5.1",
-    "main": "./backuptweets"
+    "main": "./backuptweets",
+    "license": "MIT"
 }
